@@ -1,2 +1,3 @@
-![image](https://github.com/kniksees/SparAppSwiftUI/assets/56806136/7c157b93-b120-428e-990f-6dbbfaf33a2c)
-![image](https://github.com/kniksees/SparAppSwiftUI/assets/56806136/f9c4087a-6e71-4c1d-a5b3-5e8c2417e986)
+![image](https://github.com/kniksees/SparAppSwiftUI/assets/56806136/45b4e7d1-5d7e-4566-8c0c-da1c8ef1f186)
+![image](https://github.com/kniksees/SparAppSwiftUI/assets/56806136/3f3ed28c-ca84-448a-926e-8a70e9160187)
+
