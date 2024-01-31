@@ -36,7 +36,7 @@ struct ProductView: View {
     var body: some View {
         
         VStack {
-            ScrollView {
+            ScrollView(showsIndicators: false) {
                 
                 VStack {
                     VStack {
@@ -119,7 +119,8 @@ struct ProductView: View {
                                         bottom: 0,
                                         trailing: 20))
                     
-                    ScrollView(.horizontal) {
+                    
+                    ScrollView(.horizontal, showsIndicators: false) {
                         HStack {
                             ForEach(0..<reviewsList.count, id: \.self) {i in
                                 ReviewCardView(reviewerName: reviewsList[i].0, date: reviewsList[i].1, countOfStars: reviewsList[i].2, reviewText: reviewsList[i].3)
@@ -179,9 +180,6 @@ struct ProductView: View {
                                 HStack {
                                     Text("\(String(priceForOne))")
                                         .font(.system(size: 30, weight: .bold))
-//                                    Image("rublesForKilo")
-//                                        .resizable()
-//                                        .frame(width: 25, height: 25)
                                     RublesForOne()
                                     Spacer()
                                 }
@@ -207,9 +205,6 @@ struct ProductView: View {
                                 HStack {
                                     Text("\(String(priceForKilo))")
                                         .font(.system(size: 30, weight: .bold))
-//                                    Image("rublesForKilo")
-//                                        .resizable()
-//                                        .frame(width: 25, height: 25)
                                     RublesForKiloView()
                                     Spacer()
                                 }
